@@ -1,0 +1,26 @@
+mkdir test
+cd test
+git init
+la // to show hidden files as well
+touch again.txt
+echo "sihi" > again.txt
+
+git status
+git add again.txt
+git status // shows tht agian ,txt is in staging area
+
+git commit -m "commit msg"
+echo "asuuujb" > agian.txt
+
+git diff
+
+git log // show the details of commit
+
+git add . //to add all file
+
+
+history // to show prv commands
+
+git checkout aagian.txt
+
+git reset random hash no.  // goes to this  commit and deleete all other commits 
